@@ -255,7 +255,7 @@ nav{
     width: 500px;
     height: 500px;
     background-color: white;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -295,7 +295,8 @@ label{
 
 .cardIcon{
     margin-right: 10px;
-    width: 50px;
+    width: 30px;
+    display: flex;
 }
 
 .cardInfo{
